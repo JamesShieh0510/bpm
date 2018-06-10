@@ -1,0 +1,22 @@
+{
+    "name": "BPM",
+    "version": "0.0.1",
+    "main": "app.js",
+    "config": {
+        "port": 4000
+    },
+    "scripts": {
+        "build": "npm install",
+        "start": "node startbpm.js",
+        "all": "npm run build && npm run start"
+    },
+    "license": "GPL-3.0",
+    "dependencies": {
+        "body-parser": "^1.15.2",
+        "ejs": "^2.5.5",
+        "express": "^4.6.1",
+        "jsonfile": "^2.4.0",
+        "mysql": "^2.15.0",
+        "request": "^2.87.0"
+    }
+}
